@@ -10,7 +10,9 @@ GEM
       http_parser.rb (~> 0)
     ethon (0.15.0)
       ffi (>= 1.15.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x86-mingw32)
+    ffi (1.15.5)
     ffi (1.15.5-x86-mingw32)
     forwardable-extended (2.6.0)
     html-proofer (3.19.3)
@@ -70,6 +72,8 @@ GEM
     mercenary (0.4.0)
     nokogiri (1.13.4-x86-mingw32)
       racc (~> 1.4)
+    nokogiri (1.13.4-x86_64-linux)
+      racc (~> 1.4)
     parallel (1.22.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -100,6 +104,7 @@ GEM
 
 PLATFORMS
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   html-proofer (~> 3.18)
