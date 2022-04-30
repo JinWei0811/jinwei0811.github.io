@@ -1,0 +1,77 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: 文章
+  category: 分類
+  tag: 標籤
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: 首页
+  categories: 分類
+  tags: 標籤
+  archives: 封存
+  about: 關於
+
+# the text displayed in the search bar & search results
+search:
+  hint: 搜索
+  cancel: 取消
+  no_results: 搜索结果為空
+
+panel:
+  lastmod: 最近更新
+  trending_tags: 热門標籤
+  toc: 文章内容
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: 本文由作者按照 :LICENSE_NAME 進行授權
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: 保留部分權利。
+  verbose: >-
+    除非另有说明，本網站上的文章均由作者按照知識共享署名 4.0 國際 (CC BY 4.0) 許可協議進行授權。
+
+meta: 本網站由 :PLATFORM 生成，採用 :THEME 主题。
+
+not_found:
+  statment: 抱歉，我們放错了 URL，或者它指向了不存在的内容。
+  hint_template: :HEAD_BAK嘗是再次查找，或在:ARCHIVES_PAGE上搜索它。
+  head_back: 返回主页
+  archives_page: 歸檔畫面
+
+# ----- Posts related labels -----
+
+post:
+  written_by: 作者
+  posted: 發表於
+  updated: 更新於
+  words: 字
+  pageview_measure: 次瀏覽
+  read_time:
+    unit: 分鐘
+    prompt: 閱讀
+  relate_posts: 相關文章
+  share: 分享
+  button:
+    next: 下一篇
+    previous: 上一篇
+    copy_code:
+      succeed: 已複製！
+    share_link:
+      title:  分享連結
+      succeed: 連結已复制！
+  # pinned prompt of posts list on homepage
+  pin_prompt: 至頂
+
+# categories page
+categories:
+  category_measure: 個分类
+  post_measure: 篇文章

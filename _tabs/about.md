@@ -1,5 +1,5 @@
 ---
-title: About
+title: 關於
 icon: fas fa-info-circle
 order: 4
 ---
