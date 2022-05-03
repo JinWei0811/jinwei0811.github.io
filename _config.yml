@@ -25,7 +25,7 @@ title: JinWei Blog                          # the main title
 
 tagline:    # it will display as the sub-title
 
-description: A minimal, responsive, and powerful Jekyll theme for presenting professional writing.  # used by seo meta and the atom feed
+description: # used by seo meta and the atom feed
     
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
