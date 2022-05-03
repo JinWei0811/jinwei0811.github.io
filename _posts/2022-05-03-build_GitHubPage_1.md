@@ -29,7 +29,7 @@ tags: [Github Page, Jekyll, Chirpy]
 `> bundle`
 5. 接著使用[VS Code](https://code.visualstudio.com)打開該專案。在下方 TERMINAL 輸入 bundle exec jekylls  
 `> bundle exec jekyll s`
-6. 最後可以打開在 Local 端的 Page [127.0.0.1:4000](127.0.0.1:4000)，以判斷是否執行成功。
+6. 最後可以打開在 Local 端的 Page 127.0.0.1:4000，以判斷是否執行成功。
    - 如果 _posts 裡有.md檔，可能導致執行失敗。
 
 基本上到這邊環境都已經架設好了，接下來就是上傳到Github上面。
