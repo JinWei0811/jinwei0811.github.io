@@ -8,7 +8,7 @@ tags: [ node.js, twitch bot, javascript]
 
 ## 需備知識、工具
 
-+ Visual Studio Code
++ [Visual Studio Code](https://code.visualstudio.com/)
 + node.js
 + Javascript 基本語法
 
@@ -36,6 +36,7 @@ Twitch 本身也有機器人建立[教學](https://dev.twitch.tv/docs/irc/get-st
 4. 接著可以參考 tmi.js 所提供的[範例程式碼](https://tmijs.com/#getting-started)，將他複製貼上到剛新增的 `bot.js` 裡頭，程式碼如下所示。
 
 ``` console
+
 const tmi = require('tmi.js');
 
 const client = new tmi.Client({
@@ -58,6 +59,7 @@ client.on('message', (channel, tags, message, self) => {
   client.say(channel, `@${tags.username}, heya!`);
  }
 });
+
 ```
 
 5. 其中有三個地方的值需要進行修改
