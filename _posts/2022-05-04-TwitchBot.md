@@ -35,7 +35,7 @@ Twitch 本身也有機器人建立[教學](https://dev.twitch.tv/docs/irc/get-st
 
 4. 接著可以參考 tmi.js 所提供的[範例程式碼](https://tmijs.com/#getting-started)，將他複製貼上到剛新增的 `bot.js` 裡頭，程式碼如下所示。
 
-``` console
+```
 
 const tmi = require('tmi.js');
 
@@ -77,3 +77,4 @@ client.on('message', (channel, tags, message, self) => {
 7. 最終顯示 `[22:18] info: Joined #XXXXXX` 代表機器人已經成功加入該聊天室了。這時候可以到設定的 Twitch聊天室輸入 `!hello`，機器人會回答 `heya!`  
 
 最終建立Twitch的第一步就完成了，後續會再分享一些可能會用到的 JavaScript 語法以及連接 Twitch API 的方法。
+
