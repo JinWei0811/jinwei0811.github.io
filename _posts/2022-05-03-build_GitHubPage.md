@@ -6,10 +6,12 @@ categories: [GitHub Page]
 tags: [Github Page, Jekyll, Chirpy]
 ---
 
-## 必備知識
+## 需備知識
+
 1. Github操作
 2. CMD基本操作
 3. MarkDown基本操作
+4. Visual Studio Code
 
 系統環境為 `Windows11 21H2`（環境僅供參考，如同為Windows系統，操作應該大同小異）
 
@@ -24,25 +26,25 @@ tags: [Github Page, Jekyll, Chirpy]
     2. 開啟 CMD 輸入 ruby -v ，檢查是否正確安裝 Ruby，這邊我安裝的版本是 Ruby 3.1.2p20  
 
     ```console
-      $ ruby -v
+      ruby -v
     ```
 
     3. 在 CMD 輸入 ridk install，一樣選擇 base 版本(1 - MSYS2 base installation)即可  
 
     ```console
-      $ ridk install
+      ridk install
     ```
 
     4. 重開一個 CMD 以便安裝 Jekyll 在適合的位置  
 
     ```console
-      $ gem install jekyll bundler
+      gem install jekyll bundler
     ```
 
     5. 最後輸入 jekyll -v 檢查是否順利安裝 Jekyll ， 這邊我安裝的版本是 jekyll 4.2.2  
 
     ```console
-      $ jekyll -v
+      jekyll -v
     ```
 
 2. 到 [Chirpy Starte](https://github.com/cotes2020/chirpy-starter/generate) 產生自己的專案，專案名稱(Repository name)命名為 `<username>`.github.io (username 是你的使用者名稱)  
@@ -50,13 +52,13 @@ tags: [Github Page, Jekyll, Chirpy]
 4. 在執行專案之前，需要先安裝 Dependencies，打開 CMD 輸入 bundle。  
 
     ```console
-      $ bundle
+      bundle
     ```
 
 5. 接著使用[VS Code](https://code.visualstudio.com)打開該專案。在下方 TERMINAL 輸入 bundle exec jekylls  
 
     ```console
-      $ bundle exec jekyll s
+      bundle exec jekyll s
     ```
 
 6. 最後可以打開在 Local 端的 Page 127.0.0.1:4000，以判斷是否執行成功。
@@ -81,7 +83,7 @@ tags: [Github Page, Jekyll, Chirpy]
 如果你所使用的電腦版本為 Windows，需先一樣用 VS Code 開啟專案調整 Gemfile 系統版本，在Terminal輸入：
 
 ```console
-      $ bundle lock --add-platform x86_64-linux
+      bundle lock --add-platform x86_64-linux
 ```
 
 接著就可以用 Github Desktop 提交修改，並 Push 上 Github ，可以用網頁打開你的專案到 Actions 檢視 Build 情況。  
@@ -90,9 +92,8 @@ tags: [Github Page, Jekyll, Chirpy]
 ## 開始撰寫文章
 
 上傳成功後，則可以開始撰寫自己的Github文章囉！首先一樣用 VS Code 打開你的專案，找到 `_posts` 資料夾得位置，文章的格式為MD檔(MarkDown)有兩種方式可以新增檔案。
+
    1. 在 `_posts` 右鍵新增檔案，在最後檔案需加上 `.md` 後綴  
-   2. 使用我上傳的 [範例檔案](https://github.com/JinWei0811/MarkDownExample/blob/main/2022-05-03-markdown.md) 
+   2. 使用我上傳的 [範例檔案](https://github.com/JinWei0811/MarkDownExample/blob/main/2022-05-03-markdown.md)
 
    但需要注意要加上標頭以便模板辨識標題、作者等資訊。專案在命名規則時請按照`西元年-月-日-網頁名稱.md`，就以這篇文章為例其命名為`2022-05-03-build_GitHubPage.md`。在命名上傳檔案後，盡量不要不要再修改檔案名稱，可能會導致找不到原先的網頁。
-
-
