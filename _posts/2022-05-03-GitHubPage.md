@@ -6,7 +6,12 @@ categories: [GitHub Page]
 tags: [Github Page, Jekyll, Chirpy]
 ---
 
-系統環境：Windows11 21H2
+## 必備知識
+1. Github操作
+2. CMD基本操作
+3. MarkDown基本操作
+
+系統環境為 `Windows11 21H2`（環境僅供參考，如同為Windows系統，操作應該大同小異）
 
 ## Github Page , Jekyll
 
@@ -73,7 +78,7 @@ tags: [Github Page, Jekyll, Chirpy]
 + social links: `https://github.com/<username>`
 + avatar: `/assets/img/sticker.jpg` 選一個大頭貼放至 /assets/img 裡  
 
-如果你所使用的電腦版本為 Windows，需先在在 Gemfile 調整系統版本，一樣用VS Code打開專案，在Terminal輸入：
+如果你所使用的電腦版本為 Windows，需先一樣用 VS Code 開啟專案調整 Gemfile 系統版本，在Terminal輸入：
 
 ```console
       $ bundle lock --add-platform x86_64-linux
@@ -82,7 +87,12 @@ tags: [Github Page, Jekyll, Chirpy]
 接著就可以用 Github Desktop 提交修改，並 Push 上 Github ，可以用網頁打開你的專案到 Actions 檢視 Build 情況。  
 如果沒有出現任何Error，則可以在 `<username>`.github.io，檢視自己上傳的網頁。
 
-上傳成功後，則可以開始撰寫自己的Github文章囉！  
-在 _posts 裡新增檔案，[範例檔案](https://github.com/JinWei0811/MarkDownExample/blob/main/2022-05-03-markdown.md)
+## 開始撰寫文章
+
+上傳成功後，則可以開始撰寫自己的Github文章囉！首先一樣用 VS Code 打開你的專案，找到 `_posts` 資料夾得位置，文章的格式為MD檔(MarkDown)有兩種方式可以新增檔案。
+   1. 在 `_posts` 右鍵新增檔案，在最後檔案需加上 `.md` 後綴  
+   2. 使用我上傳的 [範例檔案](https://github.com/JinWei0811/MarkDownExample/blob/main/2022-05-03-markdown.md) 
+
+   但需要注意要加上標頭以便模板辨識標題、作者等資訊。專案在命名規則時請按照`西元年-月-日-網頁名稱.md`，就以這篇文章為例其命名為`2022-05-03-GithubPage.md`。
 
 
