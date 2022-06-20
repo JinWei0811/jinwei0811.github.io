@@ -1,5 +1,5 @@
 ---
-title: Twitch Bot圖奇機器人(3)-查詢Twitch API
+title: Twitch Bot圖奇機器人(4)-查詢Twitch API
 author: Jin Wei
 date: 2022-06-20 23:05:00 +0800
 categories: [Twitch Bot, Twitch API]
